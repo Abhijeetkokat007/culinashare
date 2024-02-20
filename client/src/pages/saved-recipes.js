@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useGetUserID } from "../hooks/useGetUserID";
 import axios from "axios";
 import Sidebar from "../components/Sidebar/Sidebar";
-import { BsBookmarksFill, BsBookmarks } from "react-icons/bs";
+
 
 export const SavedRecipes = () => {
   const [savedRecipes, setSavedRecipes] = useState([]);
@@ -21,22 +21,10 @@ export const SavedRecipes = () => {
     };
 
     fetchSavedRecipes();
-  }, []);
+  }, [] );
   return (
    <>
-      {/* <h1>Saved Recipes</h1>
-      <ul>
-        {savedRecipes.map((recipe) => (
-          <li key={recipe._id}>
-            <div>
-              <h2>{recipe.name}</h2>
-            </div>
-            <p>{recipe.description}</p>
-            <img src={recipe.imageUrl} alt={recipe.name} />
-            <p>Cooking Time: {recipe.cookingTime} minutes</p>
-          </li>
-        ))}
-      </ul> */}
+     
       <div className="text-gray-600 font-body">
       <div className="grid md:grid-cols-3 lg:grid-cols-4">
         

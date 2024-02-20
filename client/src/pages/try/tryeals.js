@@ -32,7 +32,8 @@ function Tryeals() {
 
     fetchRecipes();
     fetchSavedRecipes();
-  })
+  }, [] )
+
 
   const saveRecipe = async (recipeID) => {
     try {
@@ -45,6 +46,7 @@ function Tryeals() {
       console.log(err);
     }
   };
+ 
 
   const isRecipeSaved = (id) => savedRecipes.includes(id);
 

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BsBookmarksFill , BsBookmarks } from "react-icons/bs";
+import { BsBookmarks } from "react-icons/bs";
 import { FiPlusCircle } from "react-icons/fi";
 import "./Sidear.css"
 function Sidebar() {

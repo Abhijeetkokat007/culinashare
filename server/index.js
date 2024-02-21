@@ -15,7 +15,7 @@ const __dirname = path.resolve();
 app.use(Express.json());
 // app.use(cors(
 //   {
-//     origin : ["http://localhost:3000/"],
+//     origin : ["https://culinashare-ak.vercel.app/"],
 //     methods: [" GET " , "POST" , "PUT" , "DELETE" ],
 //     credentials: true
 //   }

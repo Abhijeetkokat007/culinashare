@@ -13,17 +13,11 @@ const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
 app.use(Express.json());
-// app.use(cors(
-//   {
-//     origin : ["http://localhost:3000/"],
-//     methods: [" GET " , "POST" , "PUT" , "DELETE" ],
-//     credentials: true
-//   }
-// ));
+
 
 app.use((req, res, next) => {
   
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'https://culinashare-ak.vercel.app');
   
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   
@@ -45,9 +39,7 @@ const connectDB = async () => {
   }
 };
 
-app.get("/", (req, res)=>{
-  res.send(`<h1>Hey i am successfull connected server</h1>`);
-})
+
 
 
 

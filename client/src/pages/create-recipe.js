@@ -40,7 +40,7 @@ export const CreateRecipe = () => {
     event.preventDefault();
     try {
       await axios.post(
-        "https://culinashare-backend.vercel.app/recipes",
+        "https://culinashare-ak.vercel.app/recipes",
         { ...recipe },
         {
           headers: { authorization: cookies.access_token },

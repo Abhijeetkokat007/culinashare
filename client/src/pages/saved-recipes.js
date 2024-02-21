@@ -12,7 +12,7 @@ export const SavedRecipes = () => {
     const fetchSavedRecipes = async () => {
       try {
         const response = await axios.get(
-          `https://culinashare-backend.vercel.app/recipes/savedRecipes/${userID}`
+          `https://culinashare.onrender.com/recipes/savedRecipes/${userID}`
         );
         setSavedRecipes(response.data.savedRecipes);
       } catch (err) {

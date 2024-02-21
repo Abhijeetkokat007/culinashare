@@ -16,7 +16,7 @@ function Login() {
       event.preventDefault();
   
       try {
-        const result = await axios.post("https://culinashare-backend.vercel.app/login", {
+        const result = await axios.post("https://culinashare.onrender.com/login", {
           username,
           password,
         });

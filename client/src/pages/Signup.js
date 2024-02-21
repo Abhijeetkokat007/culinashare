@@ -14,7 +14,7 @@ function Signup() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("https://culinashare-backend.vercel.app/auth/register", {
+      await axios.post("https://culinashare.onrender.com/auth/register", {
         username,
         password,
       });

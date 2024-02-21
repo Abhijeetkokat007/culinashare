@@ -16,7 +16,7 @@ function Login() {
       event.preventDefault();
   
       try {
-        const result = await axios.post("http://localhost:5000/auth/login", {
+        const result = await axios.post("https://culinashare-backend.vercel.app/login", {
           username,
           password,
         });

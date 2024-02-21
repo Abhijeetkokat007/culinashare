@@ -12,7 +12,7 @@ function Tryeals() {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/recipes");
+        const response = await axios.get("https://culinashare.onrender.com/recipes");
         setRecipes(response.data);
       } catch (err) {
         console.log(err);
@@ -22,7 +22,7 @@ function Tryeals() {
     const fetchSavedRecipes = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/recipes/savedRecipes/ids/${userID}`
+          `https://culinashare.onrender.com/recipes/savedRecipes/ids/${userID}`
         );
         setSavedRecipes(response.data.savedRecipes);
       } catch (err) {
@@ -37,7 +37,7 @@ function Tryeals() {
 
   const saveRecipe = async (recipeID) => {
     try {
-      const response = await axios.put("http://localhost:5000/recipes", {
+      const response = await axios.put("https://culinashare.onrender.com/recipes", {
         recipeID,
         userID,
       });

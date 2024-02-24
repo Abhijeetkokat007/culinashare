@@ -27,7 +27,13 @@ router.post("/login", async (req, res) => {
     const { username, password } = req.body;
 
     const user = await UserModel.findOne({ username });
-  
+  //   if (user) {
+  //     res.json({
+  //         success: true,
+  //         data: user,
+  //         message: "login succesfull"
+  //     })
+  // }
     if (!user) {
       return res
         .status(400)
@@ -40,7 +46,12 @@ router.post("/login", async (req, res) => {
         .json({ message: "Username or password is incorrect" });
     }
     const token = jwt.sign({ id: user._id }, "secret");
-    res.json({ token, userID: user._id });
+    res.json({ 
+      success: true,
+      tockenID: token , 
+      data: user ,
+      message: "login succesfull"
+    });
   }
   catch(err){
     console.log(err.message)

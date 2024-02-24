@@ -16,7 +16,13 @@ html {
   tab-size: 4;
 }
 
-
+.scrolling-v{
+  width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            text-align: justify;
+}
 
 html {
   line-height: 1.15; /* 1 */
@@ -863,9 +869,15 @@ video {
 }
 .save-icon {
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   right: 20px;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.show-more{
+  margin-top: -10px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 

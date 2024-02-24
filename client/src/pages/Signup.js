@@ -28,11 +28,11 @@ function Signup() {
     <div>
        <div className="flex flex-wrap">
   <div className="flex w-full flex-col md:w-1/2">
-    <div className="flex justify-center pt-12 md:-mb-24 md:justify-start md:pl-12">
-      <a href="#" className="border-b-gray-700 border-b-4 pb-2 text-2xl font-bold text-gray-900"> Damasus . </a>
+  <div className="flex ">
+      <a href="/" className=" m-3 pb-2  mb-3 btn btn-primary rounded-2xl border  text-red-500 border-red-500 hover:text-gray-100 hover:bg-red-500 ">Back Home  </a>
     </div>
     <div className="lg:w-[28rem] mx-auto my-auto flex flex-col justify-center pt-8 md:justify-start md:px-6 md:pt-0">
-      <p className="text-left text-3xl font-bold">Welcome back, Olivia</p>
+      <p className="text-left text-3xl font-bold">Welcome To Our, RECIPE<span className='text-red-600'>NINJA</span></p>
       <p className="mt-2 text-left text-gray-500">Welcome back, please enter your details.</p>
     
       <div className="relative mt-8 flex h-px place-items-center bg-gray-200">

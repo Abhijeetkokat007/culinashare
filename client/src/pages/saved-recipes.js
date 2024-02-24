@@ -11,8 +11,15 @@ export const SavedRecipes = () => {
   useEffect(() => {
     const fetchSavedRecipes = async () => {
       try {
+        const userFromLocalStorage = JSON.parse(localStorage.getItem('recipes-app-data') );
+        if (!userFromLocalStorage) {
+          alert('Please log in You Account!');
+          window.location.href = "/login";
+          return
+        }
+        const user = JSON.parse(localStorage.getItem('recipes-app-data') || '{}');
         const response = await axios.get(
-          `https://culinashare.onrender.com/recipes/savedRecipes/${userID}`
+          `https://culinashare.onrender.com/recipes/savedRecipes/${user._id}`
         );
         setSavedRecipes(response.data.savedRecipes);
       } catch (err) {

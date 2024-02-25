@@ -45,7 +45,7 @@ function Login() {
     <div className="flex justify-center pt-12 md:-mb-24 md:justify-start md:pl-12">
       <a href="#" className="border-b-gray-700 border-b-4 pb-2 text-2xl font-bold text-gray-900">  </a>
     </div>
-    <div className="lg:w-[28rem] mx-auto my-auto flex flex-col justify-center pt-8 md:justify-start md:px-6 md:pt-0">
+    <div className="lg:w-[28rem] sign-res mx-auto my-auto flex flex-col justify-center pt-8 md:justify-start md:px-6 md:pt-0">
     <p className="text-left text-3xl font-bold">Welcome Back, RECIPE<span className='text-red-600'>NINJA</span></p>
       <p className="mt-2 text-left text-gray-500">Welcome back, please enter your details.</p>
       <button className="-2 mt-8 flex items-center justify-center rounded-md border px-4 py-1 outline-none ring-gray-400 ring-offset-2 transition focus:ring-2 hover:border-transparent hover:bg-black hover:text-white"><img className="mr-2 h-5" src="https://static.cdnlogo.com/logos/g/35/google-icon.svg" alt /> Log in with Google</button>

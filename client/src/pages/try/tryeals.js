@@ -90,19 +90,19 @@ function Tryeals() {
         <main className="bg-gray-100 scrolling-v md:col-span-2 lg:col-span-3 min-h-screen ">
           <div className='main-mg-poster'>
             {(!userID) ? (
-              <div className="flex justify-center md:justify-end">
+              <div className="flex justify-end md:justify-end mb-6">
                 <a
                   href="/login"
                   className="btn bg-red-600 hover:bg-orange-700 border-primary md:border-2 bg-primary text-white transition ease-out duration-500"
                 >Log in</a>
                 <a
                   href="/signup"
-                  className="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500 ml-2"
+                  className="ms-3 btn bg-red-600 hover:bg-orange-700 border-primary md:border-2 bg-primary text-white transition ease-out duration-500"
                 >Sign up</a>
               </div>
             ) : null }
             <header>
-              <h2 className="text-slate-100 text-6xl font-semibold">Quick & Easy Recipes </h2>
+              <h2 className="text-slate-100 text-6xl font-semibold">Quick And Easy Recipes </h2>
               <h3 className="text-2xl text-slate-100 font-semibold">For Recipe Ninja</h3>
             </header>
             {/* Search bar */}

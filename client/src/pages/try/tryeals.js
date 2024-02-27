@@ -103,7 +103,7 @@ function Tryeals() {
             ) : null }
             <header>
               <h2 className="text-slate-100 text-6xl font-semibold">Quick And Easy Recipes </h2>
-              <h3 className="text-2xl text-slate-100 font-semibold">For Recipe Ninja</h3>
+              <h3 className="text-2xl text-slate-100 font-semibold">For CulinaShare</h3>
             </header>
             {/* Search bar */}
             <form className="flex items-center max-w-lg mx-auto mt-6" onSubmit={(e) => e.preventDefault()}>

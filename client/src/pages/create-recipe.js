@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 
 export const CreateRecipe = () => {
-  const userID = useGetUserID();
+  const userFromLocalStorage = JSON.parse(localStorage.getItem('recipes-app-data') );
+  const userID = userFromLocalStorage._id;
   const [cookies, _] = useCookies(["access_token"]);
   const [recipe, setRecipe] = useState({
     name: "",

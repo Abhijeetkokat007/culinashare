@@ -21,7 +21,7 @@ function Sidebar() {
         <nav className="text-right">
           <div className="flex justify-between items-center">
             <h1 className="font-bold uppercase p-4 border-b text-3xl border-gray-100">
-              <a href="/" className="hover:text-gray-700 text-gray-800">RECIPE<span className='text-red-600'>NINJA</span></a>
+              <a href="/" className="hover:text-gray-700 text-gray-800">CULINA<span className='text-red-600'>SHARE</span></a>
             </h1>
 
             <div className="px-4 cursor-pointer md:hidden" id="burger" onClick={toggleMenu}>

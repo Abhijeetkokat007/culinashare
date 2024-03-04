@@ -18,17 +18,17 @@ function Contact() {
     </div>
     <div>
       <div className="flex min-h-screen items-center justify-start bg-white">
-  <div className="mx-auto w-full max-w-sm">
+  <div className="mx-auto w-full max-w-sm p-5">
     <h1 className="text-4xl font-medium">Contact us</h1>
     <p className="mt-3 flex flex-wrap">Email us at abhijeetkokat2003@gmail.com or message us here:</p>
 
     <form  action="https://formspree.io/f/mjvnrkdg"
-  method="POST" className="mt-10">
+  method="POST" className="mt-10 p-5">
     
    
 
       <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-7 sm:grid-cols-2 p-5">
         <div className="relative z-0">
           <input type="text" name="name" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
           <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your name</label>
@@ -50,12 +50,12 @@ function Contact() {
   </div>
   <div className="pointer-events-none relative hidden h-screen select-none bg-black md:block md:w-1/2">
     <div className="absolute bottom-0 z-10 px-8 text-white opacity-100">
-      <p className="mb-8 text-3xl font-semibold leading-10">We work 10x faster than our compeititors and stay consistant. While they're bogged won with techincal debt, we're realeasing new features.</p>
-      <p className="mb-4 text-3xl font-semibold">John Elmond</p>
-      <p className="">Founder, Emogue</p>
-      <p className="mb-7 text-sm opacity-70">Web Design Agency</p>
+      <p className="mb-8 text-3xl font-semibold leading-10"></p>
+      <p className="mb-4 text-3xl font-semibold"> </p>
+      <p className=""> </p>
+      <p className="mb-7 text-sm opacity-70"> </p>
     </div>
-    <img className="-z-1 absolute top-0 h-full w-full object-cover opacity-90" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTxmDwWhVfoMgtUHniqBnLwjEG64ZmpG3jgfG-r1FiKw&s" />
+    <img className="-z-1 absolute top-0 h-full w-full object-cover opacity-90" src="https://tse2.explicit.bing.net/th?id=OIP.1lcKJNVsed6ous8NcfJqiQHaEo&pid=Api&P=0&h=180" />
   </div>
 </div>
   )

@@ -1,6 +1,6 @@
-# Recipe Website
+# Recipeshare Website
 
-This project is a simple recipe website built using React. It allows users to browse through various recipes, view details of each recipe, and search for specific recipes.
+This project is a simple recipe website built using React Vite. It allows users to browse through various recipes, view details of each recipe, and search for specific recipes.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is a simple recipe website built using React. It allows users to br
 - React
 - React Router
 - Axios (for fetching recipe data from an API)
-- Bootstrap (for styling)
+- Tailwind CSS (for styling)
 
 ## Setup
 
